@@ -12,7 +12,6 @@ int main()
     tgui::Gui gui{window};
 
     tgui::EditBox::Ptr editBox = tgui::EditBox::create();
-    editBox->setPosition({"&.width / 4 - width / 2", "&.height - height"});
     
     tgui::Button::Ptr button = tgui::Button::create();
     button->setPosition(200, 0);
